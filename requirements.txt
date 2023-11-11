@@ -1,9 +1,7 @@
 sentencepiece
 transformers
 accelerate
+langdetect
 pre-commit
-datasets
-torchaudio
-soundfile
 librosa
 fairseq2==0.1.*
