@@ -52,36 +52,4 @@ print("Translated text (from detected language to Arabic):", translated_text)
 
 
 
-# def translate_text_to_ar(contents, src_lang="eng",tgt_lang="arb"  ):
-
-#     # Process the text
-#     text_inputs = processor(text = contents,src_lang=src_lang, return_tensors="pt")
-
-#     # Translate the text
-#     output_tokens = model.generate(**text_inputs, tgt_lang=tgt_lang, generate_speech=False)
-
-#     # Decode the translated text
-#     translated_text_from_text = processor.decode(output_tokens[0].tolist()[0], skip_special_tokens=True)
-
-#     return translated_text_from_text
-
-# # Usage example:
-# print(translate_text_to_ar( "The report prepared by the Tibetan Institute of Hydrology at the Chinese Academy of Sciences suggests that temperatures and humidity levels continue to rise throughout this century."))
-
-
-# def translate_text_to_en(contents,src_lang="arb", tgt_lang="eng"  ):
-
-#     # Process the text
-#     text_inputs = processor(text = contents, src_lang=src_lang, return_tensors="pt")
-
-#     # Translate the text
-#     output_tokens = model.generate(**text_inputs, tgt_lang=tgt_lang, generate_speech=False)
-
-#     # Decode the translated text
-#     translated_text_from_text = processor.decode(output_tokens[0].tolist()[0], skip_special_tokens=True)
-
-#     return translated_text_from_text
-
-
-# # Usage example:
-# # print(translate_text_to_en("تقرير أعده معهد التبت للجليد في الأكاديمية الصينية للعلوم يشير إلى أن درجات الحرارة ومستويات الرطوبة تستمر في الارتفاع طوال هذا القرن."))
+# 
